@@ -10,7 +10,7 @@ module.exports = class Products {
     this.inStock += quantity;
   }
 
-  removeStocl(quantity) {
+  removeStock(quantity) {
     this.inStock -= quantity;
   }
 };
